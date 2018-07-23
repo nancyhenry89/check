@@ -1,2 +1,84 @@
+:root{--textcolor:#3b3b3b;--main-color:#e1222e;--main-font:'Lato', sans-serif;}
+body{font-family: var(--main-font);color: var(--textcolor)}
 .bg{background: url(../imgs/bg.png);background-size: cover;float: left;min-height: 100vh;width: 100%;}
 img{max-width: 100%;}
+.time .title ,.congrats .title,.slogan,.tickets .number,.date .value{
+    color: var(--main-color);
+}
+
+.content {}
+
+.congrats .title {
+    font-style:  italic;
+}
+
+.congrats {
+    width: 500px;
+    max-width: 100%;
+}
+
+.check {
+    background: #fff;
+}
+
+.check .head {
+    background: #454545;
+    color: #fff;
+}
+
+.logo {
+    width: 200px;
+}
+
+.form input {
+    border: 0;
+    border-bottom: 2px solid var(--main-color);
+    width: 580px;
+    max-width: 70%;
+}
+.remaining .slot {
+    background: var(--main-color);
+    color: #fff;
+    padding: 5px;
+    -ms-transform: skewX(20deg); /* IE 9 */
+    -webkit-transform: skewX(20deg); /* Safari */
+    transform: skewX(20deg);
+    display: inline-block;
+}
+
+.remaining .slot span {
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(2-0deg);
+    display: inline-block;
+}
+.tickets {
+    float: right;
+}
+
+.check-body {
+    padding: 40px;
+}
+
+.form label {
+    font-size: 20px;
+    width: 140px;
+    text-align: right;
+    padding-right: 30px;
+    max-width: 30%;
+}
+
+.field-note {
+    position: absolute;
+    width: 300px;
+    right: 70px;
+    bottom: 0;
+    text-align: right;
+}
+
+.field-cont {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 60px;
+}
