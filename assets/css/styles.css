@@ -1,1 +1,2 @@
 .bg{background: url(../imgs/bg.png);background-size: cover;float: left;min-height: 100vh;width: 100%;}
+img{max-width: 100%;}
