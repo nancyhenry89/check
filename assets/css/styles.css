@@ -6,15 +6,22 @@ img{max-width: 100%;}
     color: var(--main-color);
 }
 
-.content {}
+.content {max-width: 957px;padding-left: 40px;}
 
 .congrats .title {
     font-style:  italic;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .congrats {
-    width: 500px;
+    width: 446px;
     max-width: 100%;
+    margin-top: -14px;
+    font-size: 15px;
+    line-height: 19px;
+    margin-bottom: 44px;
 }
 
 .check {
@@ -24,6 +31,9 @@ img{max-width: 100%;}
 .check .head {
     background: #454545;
     color: #fff;
+    padding: 4px 15px;
+    height: 28px;
+    font-style: italic;
 }
 
 .logo {
@@ -39,21 +49,29 @@ img{max-width: 100%;}
 .remaining .slot {
     background: var(--main-color);
     color: #fff;
-    padding: 5px;
-    -ms-transform: skewX(20deg); /* IE 9 */
-    -webkit-transform: skewX(20deg); /* Safari */
-    transform: skewX(20deg);
+    padding: 0;
+    -ms-transform: skewX(10deg); /* IE 9 */
+    -webkit-transform: skewX(10deg); /* Safari */
+    transform: skewX(10deg);
     display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin: 2px 0px;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: -1px;
 }
 
 .remaining .slot span {
-    -ms-transform: skewX(-20deg);
-    -webkit-transform: skewX(-20deg);
-    transform: skewX(2-0deg);
+    -ms-transform: skewX(-10deg);
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
     display: inline-block;
 }
 .tickets {
     float: right;
+    margin-right: 34px;
+    margin-top: 5px;
 }
 
 .check-body {
@@ -81,4 +99,59 @@ img{max-width: 100%;}
     float: left;
     width: 100%;
     height: 60px;
+}
+header {
+    padding: 21px;
+    height: 0;
+    padding-bottom: 0;
+}
+
+.time .title {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.time {
+    padding-left: 23px;
+    width: 50%;
+    float: left;
+}
+
+.remaining {
+    padding-left: 4px;
+}
+
+.remaining .slot:nth-of-type(2) {
+    margin-right: 0;
+}
+.tickets .number {
+    font-size: 24px;
+    font-weight: bold;
+    background: #ffffff;
+    text-align: center;
+    width: 69px;
+    height: 37px;
+    line-height: 37px;
+}
+
+.tickets .title {
+    width: 89px;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 21px;
+    text-align: center;
+    padding-right: 25px;
+}
+
+.congrats p strong {
+    display: block;
+    font-weight: bold;
+    word-spacing: 1px;
+    font-size: 15px;
+}
+.check .note {
+    text-align: right;
+    font-style: normal;
+    padding-right: 5px;
 }
