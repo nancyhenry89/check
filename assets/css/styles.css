@@ -1,6 +1,9 @@
+@font-face{font-family:Lato;src:url(fonts/Lato-Black.ttf) format("truetype");font-weight:400;font-style:normal}
 :root{--textcolor:#3b3b3b;--main-color:#e1222e;--main-font:'Lato', sans-serif;}
+
+
 body{font-family: var(--main-font);color: var(--textcolor)}
-.bg{background: url(../imgs/bg.png);background-size: cover;float: left;min-height: 100vh;width: 100%;background-position: center;}
+.bg{background: url(../imgs/bg.png);background-size: cover;min-height: 100vh;width: 100%;background-position: -700px 0;}
 img{max-width: 100%;}
 .time .title, .congrats .title, .slogan,  .date .value{
     color: var(--main-color);
@@ -154,7 +157,7 @@ header {
     display: block;
     font-weight: bold;
     word-spacing: 1px;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 .check .note {
     text-align: right;
@@ -250,7 +253,24 @@ button.primary-btn.btn:after {
     margin-left: 27px;
     margin-top: 4px;
 }
+@media screen and (max-width: 1024px){
+    .bg{
+    background-position: 83% 0px;
+}
+}
 @media screen and (max-width:1023px){
+    .note span {
+    color: var(--main-color);
+    position: absolute;
+    left: -10px;
+    top: 0;
+    font-size: 22px;
+}
+    .bg{
+    background: url(../imgs/mobilebg.png);
+    background-size: cover;
+    background-position: center -86px;
+}
     .tickets {
     margin-right: 0;
     /* margin-top: -4px; */
@@ -333,7 +353,7 @@ button.primary-btn.btn:after {
     }
     
     .congrats p strong {
-        font-size: 17px;
+        /* font-size: 17px; */
         padding: 0 10px;
     }
     
@@ -405,7 +425,7 @@ button.primary-btn.btn:after {
     
     .check .note {
         position: absolute;
-        right: 41px;
+        right: 34px;
         top: 142px;
         background: #dcdcdc;
         color: var(--textcolor);
@@ -444,7 +464,7 @@ button.primary-btn.btn:after {
 
     .form label {
     text-align: left;
-    font-size: 16px;
+    font-size: 15px;
     max-width: 100%;
 }
 
@@ -461,7 +481,19 @@ button.primary-btn.btn:after {
 
 .sig {
     bottom: 34px;
-    right: 34px;
+    right: 28px;
 }
-    .content{padding:0;}
+
+}
+@media screen and (max-width:767px){
+     .content{padding:0px}
+     .bg{
+    background-size: cover;
+    background-position: center 40px;
+    padding-bottom: 170px;
+    }
+    .congrats p{font-size: 14px;}
+    .date{
+    margin-left: -30px;
+}
 }
