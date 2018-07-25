@@ -250,3 +250,218 @@ button.primary-btn.btn:after {
     margin-left: 27px;
     margin-top: 4px;
 }
+@media screen and (max-width:1023px){
+    .tickets {
+    margin-right: 0;
+    /* margin-top: -4px; */
+    width: 100px;
+}
+
+.tickets .number {
+    margin-right: 6px;
+    float: right;
+    font-size: 19px;
+    background: #dfdfdf;
+    width: 55px;
+    height: 27px;
+    line-height: 25px;
+}
+
+.tickets .title {
+    float: right;
+    padding-right: 0;
+    padding-left: 19px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.tickets {}
+
+.time {
+    padding-left: 0;
+}
+
+.remaining {
+    padding-left: 10px;
+}
+
+.logo {
+    width: 183px;
+    padding-left: 11px;
+    margin-top: 4px;
+}
+
+.slogan {
+    display: none;
+}
+
+button.primary-btn.btn:after {
+    margin-top: -41px;
+    margin-left: -12px;
+    width: 242px;
+}
+    header {
+        float: left;
+        width: calc(100% + 30px);
+        height: 89px;
+        background: white;
+        margin-left: -15px!important;
+    }
+    
+    .congrats .title {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        float: left;
+        font-size: 23px;
+        text-transform: uppercase;
+    }
+    
+    .congrats {
+        width: 100%;
+    }
+    
+    .congrats p {
+        background: rgba(255,255,255,.8);
+        float: left;
+        text-align: center;
+        padding: 10px 5px;
+        font-size: 17px;
+        line-height: 23px;
+        margin-bottom: 67px;
+        width: 100%;
+    }
+    
+    .congrats p strong {
+        font-size: 17px;
+        padding: 0 10px;
+    }
+    
+    .head p {
+        display: none;
+    }
+    
+    .form input {
+        max-width: 100%;
+        margin-top: -11px;
+        display: block;
+    }
+    
+    .form {
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+    .date .title {
+        width: 38px;
+        line-height: 20px;
+    }
+    
+    .date .value {
+        width: 45px;
+        margin-top: 10px;
+        font-size: 17px;
+        margin-left: 0px;
+    }
+    
+    .date {
+        float: right;
+        margin-top: 45px;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-right: 14px;
+    }
+    
+    .sig {
+        float: right;
+        width: 120px;
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+    }
+    
+    .check-body {
+        /* position: relative; */
+    }
+    
+    .price {
+        position: absolute;
+        top: -1px;
+        margin: 0;
+        background: transparent;
+        color: #fff;
+        width: 100%;
+        left: 0;
+        font-size: 26px;
+    }
+    
+    .check-body>.row>div {
+        position: unset;
+    }
+    
+    .check .head {
+        height: 40px;
+    }
+    
+    .check .note {
+        position: absolute;
+        right: 41px;
+        top: 142px;
+        background: #dcdcdc;
+        color: var(--textcolor);
+        height: 67px;
+        width: 74px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 17px;
+        padding-top: 8px;
+        text-align: left;
+        padding-left: 11px;
+    }
+    
+    .check {
+        width: 100%;
+    }
+    
+    button.primary-btn.btn {
+        position: absolute;
+        bottom: -105px;
+        left: 50%;
+        margin-left: -120px;
+        border: 2px solid;
+    }
+    
+    .content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .sig:after{
+    width: 87px;
+    margin-left: 23px;
+}
+}
+@media screen and (max-width:1023px){
+
+    .form label {
+    text-align: left;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+.field-cont {
+    margin: 11px 12px;
+    margin-bottom: 15px;
+}
+
+.field-note {
+    bottom: -28px;
+    right: 4px;
+    font-size: 12px;
+}
+
+.sig {
+    bottom: 34px;
+    right: 34px;
+}
+    .content{padding:0;}
+}
