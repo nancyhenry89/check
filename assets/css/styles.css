@@ -3,7 +3,7 @@
 
 
 body{font-family: var(--main-font);color: var(--textcolor)}
-.bg{background: url(../imgs/bg.png);background-size: cover;min-height: 100vh;width: 100%;background-position: -700px 0;}
+.bg{background: url(../imgs/bg.png);background-size: cover;min-height: 100vh;width: 100%;/* background-position: -177px 0; */}
 img{max-width: 100%;}
 .time .title, .congrats .title, .slogan,  .date .value{
     color: var(--main-color);
@@ -279,7 +279,7 @@ button.primary-btn.btn:after {
 @media screen and (max-width: 1024px){
     .check{/* margin-top: 130px; */}
     .bg{
-    background-position: 83% 0px;
+    background-position: 83% 0;
 }
 }
 @media screen and (max-width:1023px){
@@ -542,4 +542,19 @@ button.primary-btn.btn:after {
     .date{
     margin-left: -30px;
 }
+}
+@media screen and (min-height:1024px) and (orientation:landscape){
+    .bg{background: url(../imgs/test3.png);background-size: cover;min-height: 100vh;width: 100%;background-position: -190px 0;}
+
+}
+@media screen and (min-height:1024px) and (min-width:1024px) and (orientation:portrait){
+    .bg{background: url(../imgs/test3.png);background-size: cover;min-height: 100vh;width: 100%;background-position: -840px 0;}
+
+}
+@media screen and (min-width:1400px) and (min-height:600px) and (orientation:landscape){
+        .bg{background: url(../imgs/test.png);background-size: cover;min-height: 100vh;width: 100%;}
+
+}
+@media screen and (min-width:1900px)and (orientation:landscape){
+    
 }
