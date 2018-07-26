@@ -263,6 +263,15 @@ button.primary-btn.btn:after {
 .form input:focus {
     outline: none;
 }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fd131300;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: transparent;}
+:-ms-input-placeholder { /* IE 10+ */
+  color: transparent;}
+:-moz-placeholder { /* Firefox 18- */
+  color: transparent;}
 @media screen and (min-width:1366px){
     .congrats{/* width:300px */}
     .check{/* margin-top: 100px; */}
@@ -274,12 +283,14 @@ button.primary-btn.btn:after {
 }
 }
 @media screen and (max-width:1023px){
+
     .note span {
     color: var(--main-color);
     position: absolute;
     left: -10px;
     top: 0;
     font-size: 22px;
+
 }
     .bg{
     background: url(../imgs/mobilebg.png);
@@ -477,15 +488,28 @@ button.primary-btn.btn:after {
     width: 87px;
     margin-left: 23px;
 }
+        ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #444444;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #3b3b3b;}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #3b3b3b;}
+:-moz-placeholder { /* Firefox 18- */
+  color: #3b3b3b;}
 }
 @media screen and (max-width:1023px){
+
 
     .form label {
     text-align: left;
     font-size: 15px;
     max-width: 100%;
     height: 0px;
+    visibility: hidden;
 }
+
+
 
 .field-cont {
     margin: 11px 12px;
