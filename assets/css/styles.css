@@ -556,5 +556,6 @@ button.primary-btn.btn:after {
 
 }
 @media screen and (min-width:1900px)and (orientation:landscape){
-    
+    .bg{background: url(../imgs/test2.png);background-size: cover;min-height: 100vh;width: 100%;background-position: 0px -30px;}
+
 }
